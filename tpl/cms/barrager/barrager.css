@@ -1,0 +1,23 @@
+@charset "utf-8";.barrage{position:absolute;bottom:70px;right:-500px;display:inline-block;width:500px;overflow:hidden;z-index:555}
+.barrage_box{background-color:rgba(0,0,0,.5);padding-right:8px;height:40px;display:inline-block;border-radius:25px;transition:all .3s}
+.barrage_box .portrait{display:inline-block;margin-top:4px;margin-left:4px;width:32px;height:32px;border-radius:50%;overflow:hidden}
+.barrage_box .portrait img{width:100%;height:100%}
+.barrage_box div.p a{margin-right:2px;font-size:14px;color:#fff;line-height:40px;margin-left:18px}
+.barrage_box div.p a:hover{text-decoration:underline}
+.barrage_box .close{visibility:hidden;opacity:0;text-align:center;width:25px;height:25px;margin-left:20px;border-radius:50%;background:rgba(255,255,255,.1);margin-top:8px;background-image:url(close.png)}
+.barrage_box:hover .close{visibility:visible;opacity:1}
+.barrage_box .close a{display:block}
+.barrage_box .close .icon-close{font-size:14px;color:rgba(255,255,255,.5);display:inline-block;margin-top:5px}
+.barrage .z{float:left!important}
+.barrage a{text-decoration:none}
+.tanmu{background-color:#000;padding:8px;overflow:hidden}
+.tanmu .tanmu_l{float:left;border-right:1px solid #0a0a0a;padding-right:10px;width:85%}
+.tanmu .tanmu_l input{float:left;color:#666;height:38px;line-height:38px;border:0;padding-left:10px;font-size:14px;background-color:#484848}
+.tanmu .t_button{position:absolute;right:-2px;float:left;display:block;margin-left:10px;height:38px;width:64px;line-height:38px;overflow:hidden;cursor:pointer;color:#000;font-size:14p;text-align:center;background:#a5a5a5;border-radius:1px;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none}
+.tanmu a:hover.t_button{background:#cecece}
+.tanmu .tanmu_r{padding-left:10px;border-left:1px solid #3c3c3c;float:left;height:38px;line-height:38px;color:#666}
+.tamnu_open{margin-top:5px;background:#161616;width:72px;line-height:30px;height:30px;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;position:relative}
+.tanmu_m{float:left;background:#161616;width:10px;height:10px;border:10px solid #999;-moz-border-radius:30px;cursor:pointer}
+.tamnu_open span{float:left;margin-left:36px;margin-right:0}
+.tanmu .on{float:right;margin-right:36px;margin-left:0}
+.tanmu .one{background:#f90;color:#000}

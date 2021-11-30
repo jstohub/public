@@ -1,0 +1,74 @@
+@media only screen {
+.avatar-body {
+
+}
+.visibility{visibility:hidden}
+.avatar-view {
+	margin-top:15px;
+	height:auto;
+	box-shadow:inset 0 0 5px rgba(0, 0, 0, .25);
+	background-color:#fcfcfc;
+	overflow:hidden;
+}
+.avatar-view img {
+	display:block;
+	width:100%;
+	height:100%;
+}
+.avatar-preview {
+	float:left;
+	margin-top:15px;
+	border:1px solid #eee;
+	border-radius:4px;
+	background-color:#fff;
+	overflow:hidden
+}
+.avatar-preview:hover {
+	border-color:#ccf;
+	box-shadow:0 0 5px rgba(0, 0, 0, .15)
+}
+.avatar-preview img {
+	width:100%
+}
+.avatar-preview-lg {
+	padding-bottom:98%;
+	width:100%;
+	margin-top:15px
+}
+.avatar-preview-md {
+	padding-bottom:52%;
+	width:53%;
+}
+.avatar-preview-sm {
+	padding-bottom:34%;
+	width:35%;
+}
+.avatar-upload {
+	overflow:hidden
+}
+.avatar-upload label {
+	float:left;
+	width:100px
+}
+.avatar-upload input {
+	display:block;
+	margin-left:110px
+}
+.avatar-tool {
+	margin-top:30px;
+	margin-bottom:15px
+}
+.avatar-tool .btn-group {
+	margin-right:5px;
+	margin-bottom:10px;
+}
+.avatar-body .btn-block{ margin-top:0px;}
+.clearfix:after{display: block;height:100%;_height:100%;clear:both;content:'\020';}
+.clearfix{zoom:1;}
+}
+@media (max-width:990px){
+  .avatar-view{float:non} 
+}
+@media (max-width:767px){
+.avatar-body [class*=col-]{padding:5px}
+}

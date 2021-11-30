@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>播放器广告</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<STYLE type=text/css>BODY {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #000000; MARGIN-TOP: 0px
+}
+#loading {
+	MARGIN-TOP: 80px; margin-bottom:20px;
+}
+#ad {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; COLOR: #ffffff; CLEAR: both; FONT-SIZE: 18px; PADDING-TOP: 20px
+}
+#love {
+	MARGIN-TOP: 20px; CLEAR: both
+}
+A:link {
+	COLOR: #ffffff
+}
+A:visited {
+	COLOR: #ffffff
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.a1 {
+	COLOR: #ff0000
+}
+A.a1:visited {
+	COLOR: #ff0000
+}
+A.a2 {
+	COLOR: #006600
+}
+A.a2:visited {
+	COLOR: #006600
+}
+.aiwei img {
+    max-width: 300px;
+    width: expression(this.width > 300 && this.height < this.width ? 300:true);
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    padding: 1px;
+}
+@media (max-width:767px){
+.aiwei img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+}
+.ddd{ display:none}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.17514">
+</HEAD>
+<BODY>
+<div id="divboxmemeda" style="width:70%; margin:0 auto; height:35px; line-height:35px; font-size:15px;color:#FF9900; position:absolute;top:20px; left:15%; text-align:center;border-radius: 8px;border-top-right-radius: 8px;border-top-left-radius: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;border:#FF9900 solid 1px; "><b>重要提示：请勿理会视频上出现的任何网址，字幕！请勿轻信！</b></div>
+<DIV id=loading>
+<SCRIPT language=JavaScript>
+var ctext = "请稍后 . 视频缓冲中 . 加载完后请点击《播放》按钮.....";
+var x = 0;
+var color=new Array("#4C4C4C", "#FFFFFF", "#4C4C4C", "#FFFFFF");
+document.write('<div id="TempDiv"><center>'+ctext+'</center></div>');
+function chcolor()
+	{ 
+	 document.all.TempDiv.style.color = color[x];
+		if(x<color.length-1)
+		{
+			x++;
+		}
+		else
+		{
+			x=0;
+		}
+	}
+setInterval("chcolor()",200);
+</SCRIPT>
+</DIV>
+
+</BODY></HTML>
